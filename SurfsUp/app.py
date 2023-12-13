@@ -40,7 +40,7 @@ app = Flask(__name__)
 #################################################
 @app.route("/")
 def homepage():
-    return """ <h1> Welcome to Honolulu, Hawaii Climate API! </h1>
+    return """ <h1> Welcome to the SQL-Alchemy APP API! </h1>
     <h3> The available routes are: </h3>
     <ul>
     <li><a href = "/api/v1.0/precipitation"> Precipitation</a>: <strong>/api/v1.0/precipitation</strong> </li>
